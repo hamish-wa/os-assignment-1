@@ -1,0 +1,76 @@
+-----------------------------------------------------------------------
+Customer 1: W
+Arrival time: 16:33:27
+-----------------------------------------------------------------------
+
+Teller: 2
+Customer: 1
+Service: W
+Arrival Time: 16:33:27
+Response Time: 16:33:27
+
+-----------------------------------------------------------------------
+Customer 2: D
+Arrival time: 16:33:28
+-----------------------------------------------------------------------
+
+Teller: 4
+Customer: 2
+Service: D
+Arrival Time: 16:33:28
+Response Time: 16:33:28
+
+-----------------------------------------------------------------------
+Customer 3: D
+Arrival time: 16:33:29
+-----------------------------------------------------------------------
+
+Teller: 3
+Customer: 3
+Service: D
+Arrival Time: 16:33:29
+Response Time: 16:33:29
+
+Teller: 2
+Customer: 1
+Arrival Time: 16:33:27
+Completion Time: 16:33:30
+
+Teller: 4
+Customer: 2
+Arrival Time: 16:33:28
+Completion Time: 16:33:30
+
+Termination: teller-2
+#served customers: 1
+Start time: 16:33:26
+Termination time: 16:33:30
+
+Termination: teller-4
+#served customers: 1
+Start time: 16:33:26
+Termination time: 16:33:30
+
+Termination: teller-1
+#served customers: 0
+Start time: 16:33:26
+Termination time: 16:33:30
+
+Teller: 3
+Customer: 3
+Arrival Time: 16:33:29
+Completion Time: 16:33:31
+
+Termination: teller-3
+#served customers: 1
+Start time: 16:33:26
+Termination time: 16:33:31
+
+Teller Statistic
+Teller-1 serves 0 customers.
+Teller-2 serves 1 customers.
+Teller-3 serves 1 customers.
+Teller-4 serves 1 customers.
+
+Total customers served: 3
+
